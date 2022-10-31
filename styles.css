@@ -1,5 +1,39 @@
+body {
+    background-image: linear-gradient(to right, rgb(20, 20, 20),rgb(50, 50, 50));
+    }
+h1{
+    color: white;
+
+}
+
+h3{
+    color: white;
+}
+
+ul {
+    white-space: nowrap;
+    max-width: 1200px;
+}
+
+li {
+    display: inline-block;
+    color: white;
+    width: 25%;
+}
+
 img{
     width:200px;
     height: auto;
+    border-radius: 2.5%;
+    box-shadow: 20px;
+}
+
+p{
+    color: white;
+}
+
+li:hover{
+    transform: scale(1.05);
+    transition-duration: 1s;
 }
 
