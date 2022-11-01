@@ -23,7 +23,7 @@ h1{
     font-size: 30px;
     top: 0px;
     position: absolute;
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(42, 42, 42);
     width: 100%;
     padding-bottom: 1em;
 }
@@ -46,19 +46,38 @@ img{
     height: auto;
     border-radius: 2.5%;
     border-style: solid;
-    border-color: white;
+    border-color: brown;
 }
 
 p{
     color: white;
+    max-width: 200px;
+    display: inline-block
 }
 
 figcaption{
     text-align: center;
 }
 
-li:hover{
+.movies ul li:hover{
     transform: scale(1.05);
     transition-duration: 1s;
 }
 
+footer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: rgb(42, 42, 42);
+    width: 100%;
+}
+
+footer li{
+    display: inline-block;
+    font-size: 10px;
+    width: 19%;
+}
+
+footer ul {
+    white-space: nowrap;
+}
