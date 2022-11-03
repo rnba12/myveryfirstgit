@@ -12,6 +12,11 @@ h1{
     width: 100%;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 
 #banner{
     position: relative;
@@ -48,6 +53,13 @@ nav ul {
     justify-content: space-evenly;
 }
 
+li {
+    display: inline-block;
+    color: white;
+    width: 25%;
+    align-content: center;
+}
+
 .movie {
     width: 700px;
     display: grid;
@@ -58,13 +70,6 @@ nav ul {
     border-radius: 2%;
 }
 
-li {
-    display: inline-block;
-    color: white;
-    width: 25%;
-    align-content: center;
-}
-
 .movie img{
     width:200px;
     height: auto;
@@ -72,10 +77,6 @@ li {
     
 }
 
-figcaption{
-    text-align: center;
-    color: white;
-}
 
 .movie p{
     color: white;
