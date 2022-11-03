@@ -1,6 +1,11 @@
 body {
     background-color:rgb(20, 20, 20);
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+section a {
+    text-decoration: none;
 }
 
 nav {
@@ -17,6 +22,7 @@ h1{
     position: relative;
     top: 250px;
     left: 30px;
+    width: fit-content;
 }
     
 nav ul {
@@ -44,9 +50,9 @@ nav ul li a {
 }
 
 article {
-    width: 75%;
+    width: 100%;
     position: relative;
-    left: 12.5%;
+    
 }
 
 article p {
@@ -81,12 +87,9 @@ li {
     width:200px;
     height: auto;
     border-radius: 2.5%;
-    border: 1px solid grey;
+    border-right: 1px solid grey;
 }
 
-.name {
-    font-size: larger;
-}
 
 .movie p{
     color: white;
