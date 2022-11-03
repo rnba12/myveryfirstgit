@@ -1,51 +1,58 @@
 body {
     background-color:rgb(20, 20, 20);
     font-family: Arial, Helvetica, sans-serif;
-    }
-
-h1{
-    color: white;
-    position: absolute;
-    top: 0px;
-    text-align: center;
-    background-color: rgb(20, 20, 20);
-    width: 100%;
-}
-
-a{
-    text-decoration: none;
-    color: white;
-}
-
-
-#banner{
-    position: relative;
-    top: 20px;
-    width: 100%;
-    height: 300px;
-    border-style: none;
 }
 
 nav {
     background-color:brown;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
 }
 
-nav ul {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.welcome{
+h1{
     color: white;
-    display: flex;
-    justify-content: center;
-    max-width: 1000px;
+    position: relative;
+    top: 250px;
+    left: 30px;
+}
+    
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    padding: 8px;
+    background-color: brown;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+#banner{
+    width: 100%;
+}
+
+article {
+    width: 75%;
+    position: relative;
+    left: 12.5%;
+}
+
+article p {
+    color: white;
     text-align: center;
 }
-
-
 
 .container {
     display: flex;
@@ -61,11 +68,11 @@ li {
 }
 
 .movie {
-    width: 700px;
+    width: 650px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     border: 1px solid grey;
     border-radius: 2%;
 }
@@ -74,13 +81,18 @@ li {
     width:200px;
     height: auto;
     border-radius: 2.5%;
-    
+    border: 1px solid grey;
 }
 
+.name {
+    font-size: larger;
+}
 
 .movie p{
     color: white;
-    width: 500px;
+    position: relative;
+    top: 30px;
+    width: 445px;
     display: inline-block;
     text-align: center;
 }
@@ -88,25 +100,29 @@ li {
 .movie:hover{
     transform: scale(1.05);
     transition-duration: 1s;
+    box-shadow: 1px 1px 5px white;
 }
 
-
 footer{
-    position: relative;
-    bottom: 0px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 10px 20px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin-top: 15px;
+    background-image: linear-gradient(rgb(20, 20, 20), rgb(42, 42, 42));
     background-color: rgb(42, 42, 42);
     width: 100%;
 }
 
-footer li{
+footer ul li{
     display: inline-block;
-    font-size: 10px;
+    font-size: 15px;
     width: 19%;
+    text-align: center;
 }
 
 footer ul {
     white-space: nowrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
 }
