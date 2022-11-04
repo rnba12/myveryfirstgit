@@ -96,6 +96,7 @@ li {
     color: white;
     position: relative;
     top: 30px;
+    right: 5px; 
     width: 445px;
     display: inline-block;
     text-align: center;
