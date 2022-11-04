@@ -5,36 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Movies</title>
+    <title>Feature Films</title>
 </head>
 <body>
-    
-        <img id="banner" src="images/banner.jpg">
-        <h1>Feature Films|<small>Movies i've watched recently</small></h1>
+    <header>
+        <h1>Feature Films</h1>
+    </header>
         
-    
-    <ul id="nav">
-        <li>Watchlist</li>
-        <li>Upcoming</li>
-        <li>Past Movies</li>
-        <li>TV Shows</li>
-    </ul>
-    <br>
-    <ul id="movies">
-        <li><img id="moonlight" src="images/moonlight.jpg"><figcaption>Moonlight</figcaption><p>Chiron, a young African-American boy, finds guidance in Juan, a drug dealer, who teaches him to carve his own path. As he grows up in Miami, Juan's advice leaves a lasting impression on him.</p></li>
+    <main>
+        <article>
+            <p>Feature films is a website devoted to all the films I watched last month. What purpose does this site serve, absolutely none. Enjoy.</p> 
+            <h2>Movies</h2>     
+        </article>
+        <br>
 
-        <li><img src="images/dtrt.jpg"><figcaption>Do the Right Thing<p>In a Brooklyn neighbourhood, the long-simmering racial tensions between diverse communities erupt into brutal violence over the course of a single summer day.</p></li>
+        <section class="container">
+            <a href="moonlight.html">
+                <div class="movie">
+                    <img id="moonlight" src="images/moonlight.jpg">
+                    <p><b>Moonlight</b><br><br>Chiron, a young African-American boy, finds guidance in Juan, a drug dealer, who teaches him to carve his own path. As he grows up in Miami, Juan's advice leaves a lasting impression on him.</p>
+                </div>
+            </a>
 
-        <li><img src="images/apocalypse_now.jfif"><figcaption>Apocalypse Now</figcaption><p>Captain Willard is sent to Cambodia on a dangerous mission to assassinate a renegade colonel who has won the trust of a local tribe.</p></li>
-        <li><img src="images/the_limey.jfif"><figcaption>The Limey</figcaption><p>An extremely volatile and dangerous Englishman goes to Los Angeles to find the man he considers responsible for his daughter's death.</p></li>
-    </ul>
+            <a href="dtrt.html">
+                <div class="movie">
+                    <img src="images/dtrt.jpg">
+                        <p><b>Do the Right Thing</b><br><br>In a Brooklyn neighbourhood, the long-simmering racial tensions between diverse communities erupt into brutal violence over the course of a single summer day.</p>
+                </div>
+            </a>
+
+            <a href="apocalypse.html">
+                <div class="movie">
+                    <img src="images/apocalypse_now.jfif">
+                    <p><b>Apocalypse Now</b><br><br>Captain Willard is sent to Cambodia on a dangerous mission to assassinate a renegade colonel who has won the trust of a local tribe.</p>
+                </div>
+            </a>
+
+            <a href="rush.html">
+                <div class="movie">
+                    <img src="images/rush.jfif">
+                    <p><b>Rush</b><br><br>James Hunt and Niki Lauda, two extremely skilled Formula One racers, have an intense rivalry with each other. However, it is their enmity that pushes them to their limits.
+                    </p>
+                </div>
+            </a>
+
+             <a href="inception.html">
+                 <div class="movie">
+                    <img src="images/inception.jpg">
+                    <p><b>Inception</b><br><br>A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster.</p>
+                             </div>
+             </a>
+        </section>
+    </main>
 
     <footer>
         <ul>
+            <li>© 2022 Feature Films</li>
             <li>About</li>
-            <li>Terms</li>
+            <li>Contact</li>
             <li>Privacy</li>
-            <li>Donate</li>
             <li>Sites</li>
         </ul>
     </footer>
